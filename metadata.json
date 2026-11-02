@@ -1,0 +1,8 @@
+{
+  "name": "Mann Co. Mess Hall & Tactical Logistics",
+  "description": "Mid-century military rations depot, combat forum requisition system with SQL database persistence and classified admin terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

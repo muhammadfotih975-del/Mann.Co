@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Anton', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-body: 'Work Sans', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #EFE7D3;
+    color: #2B2625;
+  }
+
+  h1, h2, h3, .font-anton {
+    font-family: var(--font-display);
+    letter-spacing: 0.03em;
+  }
+
+  .font-mono-code {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Hard Inked Cast Shadows */
+.shadow-ink-sm {
+  box-shadow: 3px 3px 0px #2B2625;
+}
+
+.shadow-ink {
+  box-shadow: 5px 5px 0px #2B2625;
+}
+
+.shadow-ink-lg {
+  box-shadow: 8px 8px 0px #2B2625;
+}
+
+.shadow-ink-xl {
+  box-shadow: 12px 12px 0px #2B2625;
+}
+
+.shadow-ink-red {
+  box-shadow: 4px 4px 0px #7C2528;
+}
+
+/* Active Button Press Effect */
+.btn-press:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #2B2625;
+}
+
+/* Mechanical Chamfer Corner (Top Right) */
+.chamfer-tr {
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+.chamfer-diagonal {
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+}
+
+/* 45-degree Hazard Caution Stripes */
+.hazard-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    #E5A823,
+    #E5A823 12px,
+    #2B2625 12px,
+    #2B2625 24px
+  );
+}
+
+.hazard-stripes-slim {
+  background: repeating-linear-gradient(
+    -45deg,
+    #E5A823,
+    #E5A823 6px,
+    #2B2625 6px,
+    #2B2625 12px
+  );
+}
+
+/* Halftone Dot Overlay */
+.halftone-screen {
+  background-image: radial-gradient(#2B2625 18%, transparent 19%);
+  background-size: 8px 8px;
+}
+
+/* Classified Rubber Stamp */
+.stamp-classified {
+  transform: rotate(-2.5deg);
+  border: 3px dashed #B8383B;
+  color: #B8383B;
+  letter-spacing: 0.15em;
+  font-family: var(--font-mono);
+}
+
+.stamp-approved {
+  transform: rotate(2deg);
+  border: 3px solid #2d6a4f;
+  color: #2d6a4f;
+  letter-spacing: 0.12em;
+  font-family: var(--font-mono);
+}

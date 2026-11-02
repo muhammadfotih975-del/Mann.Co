@@ -1,0 +1,245 @@
+---
+name: Mann Co. Mess Hall
+colors:
+  surface: '#fff8f6'
+  surface-dim: '#e2d8d6'
+  surface-bright: '#fff8f6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#fcf1ef'
+  surface-container: '#f6ecea'
+  surface-container-high: '#f0e6e4'
+  surface-container-highest: '#eae0de'
+  on-surface: '#1f1b1a'
+  on-surface-variant: '#584140'
+  inverse-surface: '#352f2e'
+  inverse-on-surface: '#f9eeec'
+  outline: '#8c716f'
+  outline-variant: '#e0bfbd'
+  surface-tint: '#ad3034'
+  primary: '#971f26'
+  on-primary: '#ffffff'
+  primary-container: '#b8383b'
+  on-primary-container: '#ffdedb'
+  inverse-primary: '#ffb3af'
+  secondary: '#35637f'
+  on-secondary: '#ffffff'
+  secondary-container: '#afddfd'
+  on-secondary-container: '#34627e'
+  tertiary: '#674800'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#865f00'
+  on-tertiary-container: '#ffe1b0'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdad8'
+  primary-fixed-dim: '#ffb3af'
+  on-primary-fixed: '#410006'
+  on-primary-fixed-variant: '#8c161f'
+  secondary-fixed: '#c6e7ff'
+  secondary-fixed-dim: '#9fccec'
+  on-secondary-fixed: '#001e2d'
+  on-secondary-fixed-variant: '#194b66'
+  tertiary-fixed: '#ffdea8'
+  tertiary-fixed-dim: '#fbbc38'
+  on-tertiary-fixed: '#271900'
+  on-tertiary-fixed-variant: '#5e4200'
+  background: '#fff8f6'
+  on-background: '#1f1b1a'
+  surface-variant: '#eae0de'
+typography:
+  display-xl:
+    fontFamily: Anton
+    fontSize: 56px
+    fontWeight: '400'
+    lineHeight: 60px
+    letterSpacing: 0.04em
+  display-xl-mobile:
+    fontFamily: Anton
+    fontSize: 38px
+    fontWeight: '400'
+    lineHeight: 42px
+    letterSpacing: 0.03em
+  headline-lg:
+    fontFamily: Anton
+    fontSize: 36px
+    fontWeight: '400'
+    lineHeight: 40px
+    letterSpacing: 0.03em
+  headline-lg-mobile:
+    fontFamily: Anton
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 32px
+    letterSpacing: 0.02em
+  headline-md:
+    fontFamily: Anton
+    fontSize: 26px
+    fontWeight: '400'
+    lineHeight: 30px
+    letterSpacing: 0.02em
+  headline-sm:
+    fontFamily: Anton
+    fontSize: 20px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.02em
+  title-lg:
+    fontFamily: Work Sans
+    fontSize: 18px
+    fontWeight: '700'
+    lineHeight: 24px
+    letterSpacing: 0em
+  title-md:
+    fontFamily: Work Sans
+    fontSize: 16px
+    fontWeight: '700'
+    lineHeight: 22px
+    letterSpacing: 0.01em
+  body-lg:
+    fontFamily: Work Sans
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Work Sans
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Work Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Space Mono
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 18px
+    letterSpacing: 0.06em
+  label-md:
+    fontFamily: Space Mono
+    fontSize: 12px
+    fontWeight: '700'
+    lineHeight: 16px
+    letterSpacing: 0.08em
+  label-sm:
+    fontFamily: Space Mono
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.1em
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2.5rem
+  margin-sm: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system channels the mid-century industrial militarism, tongue-in-cheek comic book bombast, and frontier supply-depot charm of 1960s combat logistics. It sits squarely between a top-secret munitions catalogue and an overly macho desert mess hall serving oversized cold cuts. The visual language blends:
+
+- **Tactile / Skeuomorphic Americana:** Heavy cardstock, stamped manila file jackets, stamped metal badges, riveted girders, industrial bevels, and tactile mechanical toggles.
+- **Graphic Novel & Comic Paneling:** Dynamic angled badges, 45-degree caution hazard hatching, halftone dot pattern screens, bold ink-weight keylines, and assertive asymmetrical drop shadows.
+- **Government Surplus & Munitions Supply:** Gritty, authoritative typography with military stencils, classification banners, and high-impact industrial iconography.
+
+The emotional target is hyper-confident, nostalgic, rugged, and irreverent. Every surface feels physical—like a heavily thumbed field manual or a steel rations crate dropped out of a cargo plane onto New Mexico caliche.
+
+## Colors
+
+The palette reproduces the mid-century corporate-industrial war between RED and BLU factions, set against bleached desert sands and weathered munitions stock.
+
+- **Primary (`#B8383B` - RED Munitions):** Deep, warm brick crimson with burnt rust undertones. Used for destructive actions, RED-aligned inventory, primary action buttons, urgency indicators, and bold framing accents. Paired with deeper shade `#7C2528` for bevel bases and drop shadows.
+- **Secondary (`#5885A2` - BLU Steel):** Weathered industrial navy slate. Used for secondary toggles, cold-storage supplies, utility containers, engineering diagnostics, and data-dense secondary tabs. Dark variant `#2B3D4F` anchors pressed states.
+- **Tertiary (`#E5A823` - Mann Co. Hazard Amber):** Heavy-machinery yellow-orange used exclusively for critical operational badges, hazard slashes, high-calorie callouts, and limited-run supply crate seals.
+- **Neutral (`#2B2625` - Inked Charcoal):** Iron-black printing ink. Replaces sterile digital blacks across borders, typographic strokes, hard drop shadows, and comic framing lines.
+- **Canvas & Backing (`#EFE7D3` aged cardstock, `#E1D5B8` manila dossier tone, `#D1C2A5` desert field parchment):** Warm, fibrous paper grounds that eliminate stark digital whites in favor of physical mid-century government printouts.
+
+Halftone overlays and 45-degree yellow/black hazard striping must be applied strictly as functional accents—card headers, warning badges, or active loading trackers—rather than whole-screen wallpapers.
+
+## Typography
+
+Typography establishes an authoritarian, comic-strip industrial hierarchy:
+
+- **Display & Headlines (`Anton`):** Heavy, condensed, and unapologetic. All headlines render in uppercase. Emulate physical woodblock printing and vintage valve advertisements. Headlines frequently employ a sharp 3px horizontal and 3px vertical offset hard shadow tinted in `#2B2625` or deep crimson `#7C2528`.
+- **Editorial & Body (`Work Sans`):** Clean, sturdy grotesque sans-serif with strong mid-century proportions. Highly legible on textured cardstock, even at dense paragraph layouts.
+- **Labels, Stamps, Serial Identifiers (`Space Mono`):** Fixed-width typewriter output representing teletype readouts, ration weights, classified stamps, and munitions crate serials. Always uppercase, tight, and tracked out.
+
+Text transformed into classified rubber stamps must be contained in high-contrast rectangular border blocks angled slightly (-2° to 3°) with uppercase `Space Mono` or `Anton` text.
+
+## Layout & Spacing
+
+The layout operates on a rugged, structural 12-column fluid grid system pinned inside a max-width industrial containment box of 1280px.
+
+- **Desktop (1024px+):** 12 columns with 24px (`1.5rem`) gutters and 40px (`2.5rem`) outer canvas margins. Panels use tight, purposeful gap spacing to feel like bolted-together compartments of a field kitchen or armory wall.
+- **Tablet (768px - 1023px):** 8 columns with 16px (`1rem`) gutters and 24px (`1.5rem`) outer margins. Multi-column inventory shelves collapse into 2-wide card blocks.
+- **Mobile (320px - 767px):** 4 columns with 16px (`1rem`) gutters and 20px (`1.25rem`) margins. Angled badges and heavy headers scale down via dedicated mobile sizes to maintain view integrity without horizontal clipping.
+
+Layout modules mimic comic strips and dossier dossiers: rigid black framing lines separate modules, while occasional asymmetrical tags (e.g., "SANDVICH: RESTOCKS IN 30s") breach panel boundaries to add kinetic comic book momentum.
+
+## Elevation & Depth
+
+This system outright rejects soft, diffused ambient drop shadows and sterile frosted glass. Instead, physical dimension is achieved through **machined bevels, stamped cardstock layers, and ink-bleed hard drop shadows**:
+
+1. **Hard Cast-Ink Shadows:** Elevated interactive surfaces project hard, non-blurred offsets:
+   - *Resting Level 1:* `3px 3px 0px #2B2625`
+   - *Elevated Level 2 (Hover/Active Dossier):* `6px 6px 0px #2B2625`
+   - *Overdrive Level 3 (Modals, Crates):* `10px 10px 0px #2B2625`
+2. **Beveled Plate Tiers:** Buttons and interactive badges feature a mechanical bevel. The top and left edge catch an opaque 2px inner highlight (`#FFF` at 35% opacity), while the bottom and right edges display a deep shade lip (`#000` at 40% opacity or `#7C2528`).
+3. **Layered Dossier Paper:** Recessed backgrounds (mess hall trays, inventory trays) use `#D1C2A5` with a 2px inset stroke (`inset 0 0 0 2px #2B2625`), while primary cards sit proud on `#EFE7D3` with outer 3px solid ink strokes.
+4. **Mechanical Rivets:** Corner joints on modal windows and major container blocks feature four simulated 8px brass/iron screwheads anchored with crossed mechanical crosshair lines.
+
+## Shapes
+
+The shape system is ruthlessly squared off (`0`), prioritizing cut angles, industrial plates, and comic panel rectangles.
+
+- **Zero Curvature:** Default corners are 0px. Buttons, cards, modals, and input fields feature strict right angles.
+- **Chamfered / Clipped Edges:** Tactical inventory tags, action-oriented primary badges, and ration cards employ a 45-degree corner notch (clip-path chamfer of 8px to 12px) on the top-right or diagonally opposing corners, referencing punched punch-cards and heavy steel girders.
+- **Speech Tail & Dialogue Pointers:** Informational banners, tooltip notifications, and quick bark popups utilize rigid, triangular comic speech-bubble tails projecting directly toward their parent trigger.
+- **Heavy Stroke Bounds:** All prominent shapes are circumscribed with a uniform 2px or 3px solid `#2B2625` border to preserve comic book delineation.
+
+## Components
+
+### Buttons
+- **Primary (RED Munitions):** Background `#B8383B`, text `#EFE7D3` in uppercase `Anton`, 3px solid border in `#2B2625`. Chamfered top-right corner (8px). 4px bottom-right hard drop shadow in `#2B2625`. Top inner highlight line (2px white at 25%). On click/press, offset button 3px down and right while collapsing the drop shadow to 1px for a heavy mechanical "thunk."
+- **Secondary (BLU Steel):** Background `#5885A2`, text `#EFE7D3`, structured with the same physical bevel and ink shadow as Primary.
+- **Utility / Inactive:** Background `#D1C2A5`, text `#2B2625`, 2px solid border, no chamfer.
+
+### Chips & Badges
+- Displayed as stamped canvas tags, ration tickets, or stencil plates.
+- Fixed-pitch uppercase `Space Mono` typography.
+- Bordered with dashed or continuous 2px `#2B2625` lines.
+- Specialized status chips (e.g., "BUFFED", "ROTTEN", "CLASSIFIED") are tilted at -2° angles with rubber-stamp bleed textures.
+
+### Lists & Inventory Trays
+- Arranged as steel pegboard or military field crates.
+- Each list row separated by a 2px `#2B2625` rule. Alternating rows alternate subtly between `#EFE7D3` and `#E6DABF`.
+- Row selection triggers a bright yellow/black 45-degree hazard stripe band along the left margin (8px wide).
+
+### Checkboxes & Radios
+- **Checkboxes:** Squared 20x20px steel toggles with 2px solid `#2B2625` border and `#EFE7D3` fill. Checked state displays a hand-drawn or heavy industrial thick red "X" (`#B8383B`) with comic inkweight.
+- **Radio Buttons:** Diamond-shaped rotated squares (45 degrees) instead of circles. Selected state fills with solid `#5885A2` or `#B8383B` and an inner ink diamond.
+
+### Input Fields
+- Heavy cardstock ledger slots: background `#E1D5B8`, inset 2px border `#2B2625`. Text in `Space Mono`. Placeholder text in low-contrast faded charcoal (`#706660`).
+- Focus state switches background to stark `#EFE7D3`, adds a 3px hard drop shadow in `#2B2625`, and outlines with a 2px caution-amber `#E5A823` border.
+
+### Cards (Rations & Munitions File)
+- Structured like stamped manila dossiers. Features a top tab header containing item classification codes.
+- Outer border: 3px solid `#2B2625` with a 5px hard black drop shadow.
+- Top card ribbon for culinary or combat stats (e.g., "+300 HP OVER 4 SECONDS") highlighted in halftone dot screen patterns against a warm amber or team crimson background.
+
+### Additional Domain Components
+- **The "BREAD BOX" Dossier Drawer:** Accordion container that slides open horizontally like a steel ammunition locker door with riveted hinge graphics.
+- **Speech Bubble Alerts:** Urgent notification banners styled with hand-inked borders and a sharp directional speech tail, quoting The Heavy or Mann Co. management in bold comic typography.
+- **Hazard Tape Progress Bar:** Segmented loading tracker styled as a continuous ribbon of diagonal caution striping (`#E5A823` and `#2B2625`) that animates continuously across the track.
